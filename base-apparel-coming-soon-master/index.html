@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo{
+      padding: 0px 13rem;
+    }
+    .logo h1{
+      font-size: 100px;
+      width: 30rem;
+      font-weight: 200;
+    }
+    .bottom{
+      position: relative;
+    bottom: 8rem;
+    }
+  
+    span{
+      color: hsl(0, 36%, 70%);
+    }
+    .logo p{
+      width: 24rem;
+      color:  hsl(0, 36%, 70%);
+      line-height: 28px;
+      font-size: 16px;
+
+    }
+    form input{
+      width: 360px;
+      height: 40px;
+      border-radius: 20px;
+      border: solid hsl(0, 36%, 70%) 1px;
+      margin-top: 26px;
+      padding: 14px;
+    }
+  .btn{
+    width: 100px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background-color:#f29d9f;
+    margin-left: -6rem;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #f9d6d6;
+    transition: 0.3s;
+  }
+  .big{
+    font-weight: bold;
+    color: black;
+  }
+
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="images/logo.svg" alt="" class="bottom">
+      <h1><span>WE'RE </span> <span class="big"> COMING SOON</span></h1>
+      <p> Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+        <form>
+          <input type="text" name="" placeholder="Email Address">
+          <button class="btn"><img src="images/icon-arrow.svg" alt=""></button>
+        </form>
+    </div>
+    <div class="imges">
+      <img src="images/hero-desktop.jpg" alt="">
+      <picture>
+      <source media="(min-width:650px)" srcset="hero-mobile.jpg">
+      </picture>
+    </div>
+  </div>
+</header>
+<!----  We're coming soon
+
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+
+  Email Address
+-->
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
